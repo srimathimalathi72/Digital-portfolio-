@@ -1,0 +1,203 @@
+/* General Styles */
+
+body {
+
+    font-family: 'Arial', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    scroll-behavior: smooth;
+
+    background-color: #fff0f5; /* Light pink background */
+
+}
+
+header {
+
+    background-color: #ff69b4; /* Hot pink header */
+
+    color: white;
+
+    padding: 15px 0;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+}
+
+nav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    width: 90%;
+
+    margin: auto;
+
+}
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+
+    color: #ffe4e1; /* Lighter pink on hover */
+
+}
+
+.logo {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+}
+
+/* Sections */
+
+section {
+
+    padding: 60px 20px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    margin: 20px;
+
+}
+
+/* Home Section */
+
+.home-section {
+
+    background-color: #ffc0cb; /* Light pink */
+
+    color: #fff;
+
+    padding: 100px 20px;
+
+}
+
+/* About Section */
+
+.about-section {
+
+    background-color: #fff; /* White */
+
+    color: #ff1493; /* Deep pink text */
+
+}
+
+/* Projects Section */
+
+.projects-section {
+
+    background-color: #ffe4e1; /* Misty pink */
+
+    color: #ff1493;
+
+}
+
+.project-card {
+
+    background-color: #fff; /* White cards */
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    width: 300px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    border-radius: 10px;
+
+}
+
+/* Contact Section */
+
+.contact-section {
+
+    background-color: #fff;
+
+    color: #ff1493;
+
+}
+
+input, textarea {
+
+    width: 80%;
+
+    padding: 10px;
+
+    margin: 10px 0;
+
+    border-radius: 5px;
+
+    border: 1px solid #ff69b4;
+
+}
+
+button {
+
+    padding: 10px 20px;
+
+    background-color: #ff69b4;
+
+    border: none;
+
+    color: white;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+
+    background-color: #ff1493;
+
+}
+
+footer {
+
+    background-color: #ff69b4;
+
+    color: white;
+
+    padding: 15px;
+
+}
